@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "hotkey": {
+      "type": "string",
+      "description": "Global hotkey combination",
+      "pattern": "^(ctrl|alt|shift)\\+(ctrl|alt|shift|[a-z])$"
+    },
+    "save_directory": {
+      "type": "string",
+      "description": "Directory path where screenshots are saved"
+    },
+    "image_format": {
+      "type": "string",
+      "enum": ["jpg", "png"],
+      "description": "Image format for screenshots"
+    },
+    "image_quality": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "JPEG quality (1-100, only applies to JPG format)"
+    },
+    "auto_startup": {
+      "type": "boolean",
+      "description": "Enable auto-start on Windows boot"
+    },
+    "show_notification": {
+      "type": "boolean",
+      "description": "Show Windows toast notifications"
+    },
+    "auto_cleanup": {
+      "type": "boolean",
+      "description": "Enable automatic cleanup of old screenshots"
+    },
+    "cleanup_days": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of days after which to delete old screenshots (when auto_cleanup is enabled)"
+    }
+  },
+  "required": ["hotkey", "save_directory", "image_format"],
+  "additionalProperties": false
+}

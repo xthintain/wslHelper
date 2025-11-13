@@ -1,0 +1,7 @@
+# Production Dependencies
+PyQt5>=5.15.0
+Pillow>=10.0.0
+mss>=9.0.0
+pywin32>=305
+pynput>=1.7.6
+win10toast>=0.9

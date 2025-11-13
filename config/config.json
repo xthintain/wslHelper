@@ -1,0 +1,10 @@
+{
+  "hotkey": "ctrl+alt+s",
+  "save_directory": "E:\\\\tmp\\\\screenshots",
+  "image_format": "jpg",
+  "image_quality": 90,
+  "auto_startup": true,
+  "show_notification": true,
+  "auto_cleanup": false,
+  "cleanup_days": 7
+}
