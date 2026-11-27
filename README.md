@@ -1,7 +1,7 @@
 # WSL Screenshot Tool
 
 **Version**: 1.0.0
-**License**: MIT
+**License**: PolyForm Noncommercial 1.0.0 (non-commercial use only)
 
 Windows 平台下的截图工具，专为 WSL（Windows Subsystem for Linux）用户设计。一键截图并自动将 Windows 路径转换为 WSL 路径格式，直接粘贴到 WSL 终端使用。
 
@@ -292,7 +292,7 @@ dist/WSLScreenshot.exe
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+本项目采用 [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) 许可证（仅限非商业用途，商业使用需另行授权）- 查看 [LICENSE](LICENSE) 文件了解详情。
 
 ---
 
